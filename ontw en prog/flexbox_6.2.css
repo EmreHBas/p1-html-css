@@ -1,0 +1,42 @@
+{
+    box-sizing: border-box;
+    margin:20px;
+
+}
+
+.flex-container{
+    background-color: white;
+    
+}
+
+.item1{
+    flex-direction:row; 
+    width: 200px;
+    height: 200px;
+    background-color: blue;  
+    margin: 20px;
+}
+
+.item2{
+    flex-direction:row;
+    width: 200px;
+    height: 200px;
+    background-color: black; 
+    margin: 20px;
+}
+
+.item3{
+    flex-direction:row;
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    margin: 20px;
+}
+
+.item4{
+    flex-direction:row;
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    margin: 20px;
+}

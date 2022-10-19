@@ -1,0 +1,27 @@
+
+body {
+  background-color: yellow;
+}
+
+.menu-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+@media only screen and (max-width: 800px) {
+    body {
+      background-color: orange;
+    }
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+  .menu-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+}
+
+
